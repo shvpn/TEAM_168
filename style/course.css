@@ -1,0 +1,9 @@
+.body{
+    background-color: aquamarine;
+}
+
+.course{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
