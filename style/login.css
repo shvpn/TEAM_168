@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+body {
+    background-image: url(/TEAM_168/img/wp6248542-night-minimalist-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    color: white;
+}
+
+.login {
+    color: white;
+    text-align: center;
+    width: 400px;
+    background-color: rgb(0, 0, 74, 0.8);
+    box-shadow: 0px 2px 4px darkblue;
+    border-radius: 15px;
+
+}
+
+.login_content {
+    width: 100%;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    
+}
+.login_header{
+    border: 1px solid white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 14px;
+    background-color: rgb(0, 0, 74, 0.8);
+}
+form{
+    padding: 30px;
+    background-color: transparent;
+}
+.mb-3{
+    padding: 10px;
+    color: white;
+    display: flex;
+}
+.mb-3 input{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+button{
+    width:150px;
+}
+i{
+    font-size: 20px; 
+    padding-right: 15px;
+    padding-top: 15px;
+}
