@@ -7,3 +7,7 @@
     justify-content: center;
     gap: 50px;
 }
+
+.card .card-img-top3{
+    height: 190px;
+}
