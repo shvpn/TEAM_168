@@ -15,8 +15,30 @@ body{
     gap: 50px;
 }
 
+.card{
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
 .card .card-img-top3{
     height: 190px;
+}
+
+.card h5{
+    font-size: 23px;
+    font-weight: 40px;
+}
+.card p{
+    font-size: 12px;
+}
+
+.card .btn{
+    font-size: 15px;
 }
 html{
     scroll-behavior: smooth;
