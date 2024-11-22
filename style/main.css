@@ -1,6 +1,6 @@
 body{
-    background: rgb(18,37,145);
-    background: linear-gradient(90deg, rgba(18,37,145,1) 5%, rgba(255,255,255,1) 50%, rgba(82,76,207,1) 92%);
+    background-image: url("../img/back.jpg");
+    background-size: cover;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
