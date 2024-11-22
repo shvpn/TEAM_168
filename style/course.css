@@ -1,13 +1,17 @@
-.body{
-    background-color: aquamarine;
+.body {
+  background-color: aquamarine;
 }
 
-.course{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+.display-4 {
+  text-align: center;
 }
 
-.card .card-img-top3{
-    height: 190px;
+.course {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card .card-img-top3 {
+  height: 190px;
 }

@@ -1,10 +1,93 @@
-body{
-    background: rgb(18,37,145);
-    background: linear-gradient(90deg, rgba(18,37,145,1) 5%, rgba(255,255,255,1) 50%, rgba(82,76,207,1) 92%);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+  background-image: url(/img/bg-detail.jpg);
 }
-html{
-    scroll-behavior: smooth;
+#navkh {
+  align-items: center;
+  font-weight: bold;
+  margin-right: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  background: rgb(58, 138, 180);
+  background-color: black solid 2px;
+  border: 2px solid rgb(165, 162, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 138, 180, 0.3) 0%,
+    rgba(237, 69, 252, 3) 100%
+  );
+  border-radius: 10px;
+  color: white;
+}
+.slide {
+  width: 80%;
+  gap: 5%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 7%;
+  border-radius: 50px;
+}
+#round {
+  width: 80%;
+  height: 70vh;
+  border-radius: 20px;
+}
+h3 {
+  color: white;
+}
+.navsh {
+  width: 98%;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.199);
+  margin: 10px;
+  position: fixed;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.header h1 {
+  margin-top: 10%;
+}
+.BODY-1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.display-4 {
+  padding-top: 10%;
+  text-align: center;
+  font-weight: bolder;
+}
+.display-4 mark {
+  border-radius: 20%;
+  background-color: rgba(255, 255, 255, 0.199);
+  color: rgb(205, 198, 198);
+  box-shadow: 10px 10px 10px rgb(91, 184, 224);
+}
+.p-card {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
 }
