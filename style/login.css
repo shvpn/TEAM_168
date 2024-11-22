@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
 body {
     background-image: url(/TEAM_168/img/wp6248542-night-minimalist-wallpapers.jpg);
@@ -64,3 +65,15 @@ i{
     padding-right: 15px;
     padding-top: 15px;
 }
+=======
+body{
+    background: rgb(18,37,145);
+    background: linear-gradient(90deg, rgba(18,37,145,1) 5%, rgba(255,255,255,1) 50%, rgba(82,76,207,1) 92%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+>>>>>>> dfdf8462e7aeb7320ed1feeaedf777bf37ee981b
