@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+body {
+    background-image: url(/TEAM_168/img/Screenshot\ 2024-11-22\ 151103.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    color: white;
+}
+.register{
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 80, 138, 0.7);
+=======
 body{
     background: rgb(18,37,145);
     background: linear-gradient(90deg, rgba(18,37,145,1) 5%, rgba(255,255,255,1) 50%, rgba(82,76,207,1) 92%);
@@ -7,4 +30,5 @@ body{
 }
 html{
     scroll-behavior: smooth;
+>>>>>>> dfdf8462e7aeb7320ed1feeaedf777bf37ee981b
 }
