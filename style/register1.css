@@ -37,7 +37,7 @@ body {
     gap: 20px;
     display: flex;
     border-radius: 10px;
-   
+    /* background-color: rgba(255, 255, 255, 0.199); */
     margin: 10px;
     position: fixed;
     z-index: 100;
@@ -51,24 +51,27 @@ body {
     margin-bottom: 5px;
     margin-left: 20px;
 }
-.login {
+.register {
+    margin-top: 50px;
     color: white;
     text-align: center;
-    width: 400px;
+    width: 700px;
     background-color: rgb(0, 0, 74, 0.8);
     box-shadow: 0px 2px 4px darkblue;
     border-radius: 15px;
+   
 
 }
 
-.login_content {
+.register_content {
     width: 100%;
     border: 1.5px solid white;
     border-radius: 15px;
+    padding: 20px;
     
 }
-.login_header{
-    border: 1px solid white;
+.register_header{
+    
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -76,11 +79,11 @@ body {
     background-color: rgb(0, 0, 74, 0.8);
 }
 form{
-    padding: 30px;
+    padding: 0px;
     background-color: transparent;
 }
 .mb-3{
-    padding: 10px;
+    padding: 5px;
     color: white;
     display: flex;
 }
@@ -89,7 +92,7 @@ form{
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
-    height: 50px;
+    height: 40px;
 }
 .form-control::placeholder {
     color: white;
@@ -97,9 +100,17 @@ form{
 }
 button{
     width:150px;
+    background-color: darkblue;
 }
 i{
     font-size: 20px; 
     padding-right: 15px;
     padding-top: 15px;
+}
+.or_continue{
+    padding-top: 20px;
+    text-align: center;
+}
+.or_continue i:hover{
+    color: blue;
 }

@@ -9,26 +9,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <div class="login">
-    <div class="login_content">
-      <h1 class="login_header">Login</h1>
-      <form>
-        
-        <div class="mb-3">
-          <i class="fa-solid fa-user"></i>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" style="background-color: transparent; color: white;">
-        </div>
-        <div class="mb-3">
-            <i class="fa-solid fa-lock"></i>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" style="background-color: transparent; color: white;">
-        </div>
-        <div class="link_to_register">
-            <p>Don't have any account?</p>
-            <a style="color: rgb(0, 195, 255);" href="./register.html">Register Now</a>
-            <p>or</p>
-        </div>
-        <button type="submit" class="btn btn-primary"><a style="text-decoration: none; color: white;" href="./index.html">LOGIN</a></button>
-      </form>
+  <nav class="navsh">
+    <img class="logo" src="img/logozin.webp" alt="logo">
+    <ul class="nav justify-content-end" id="navkh">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="details.html">DETAIL</a>
+        </li>
+          <li class="nav-item">
+            <a style="color: aqua; border: 2PX solid aqua; border-radius: 10px;" class="nav-link" href="login.html">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register1.html">REGISTER</a>
+          </li>
+      </ul>
+</nav>
+  <div class="container">
+    <div class="login">
+      <div class="login_content">
+        <h1 class="login_header">Login</h1>
+        <form>
+          <div class="mb-3">
+            <i class="fa-solid fa-user"></i>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" style="background-color: transparent; color: white;">
+          </div>
+          <div class="mb-3">
+              <i class="fa-solid fa-lock"></i>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" style="background-color: transparent; color: white;">
+          </div>
+          <div class="link_to_register">
+              <p>Don't have any account?</p>
+              <a style="color: rgb(0, 195, 255);" href="./register1.html">Register Now</a>
+              <p>or</p>
+          </div>
+          <button type="submit" class="btn btn-primary"><a style="text-decoration: none; color: white;" href="./index.html">LOGIN</a></button>
+        </form>
+      </div>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
