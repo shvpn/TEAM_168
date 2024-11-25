@@ -4,7 +4,7 @@
 body{
     background-image: url("../img/back.jpg");
     font-family: "Poppins", serif;
-    height: 1200px;
+    height: 2000px;
 }
 
 #navkh{
@@ -14,7 +14,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nav-link{
-    color: black;
+    color: white;
 }
 .nav-link:hover{
     background: rgb(58,138,180);
@@ -48,6 +48,7 @@ h3{
 .logo{
     width: 60px;
     height: 60px;
+    border-radius: 50%;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 20px;
@@ -66,6 +67,7 @@ h3{
 .carousel-indicators{
     
 }
+
 .search{
     padding-top: 100px;
     width: 30%;
