@@ -42,9 +42,6 @@ body{
 .card .btn{
     font-size: 15px;
 }
-html{
-    scroll-behavior: smooth;
-}
 .container-fluid{
     border-radius: 10px;
     justify-content: center;
@@ -72,6 +69,8 @@ html{
 .slide{
     width: 90%;
     gap: 5%;
+    overflow: hidden;
+    white-space: nowrap;
     height: 80vh;
     align-items: center;
     justify-content: center;
@@ -84,8 +83,18 @@ html{
     height: 70vh;
     border-radius: 20px;
 }
+#logotxt{
+    background: linear-gradient(90deg, #ff7a18, #af002d, #319197);
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    -webkit-text-fill-color: transparent;
+}
 h3{
+    animation: typing 3s steps(30, end), blink 0.5s step-end infinite alternate;
     color: white;
+    font-weight: bold;
+    display: inline-block;
+    
 }
 .navsh{
     width: 98%;
@@ -106,4 +115,24 @@ h3{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 20px;
+}
+#carouselExampleAutoplaying{
+    width: 60%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 20px;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }

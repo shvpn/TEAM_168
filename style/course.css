@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-.body {
-  background-color: aquamarine;
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
 
 body{
-    background-image: url(/img/);
+    background-image: url("../img/back.jpg");
     font-family: "Poppins", serif;
     height: 1200px;
 }
@@ -27,16 +24,7 @@ body{
     border-radius: 10px;
     color: white;
 }
-.slide{
-    width: 80%;
-    gap: 5%;
-    height: 80vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 7%;
-    border-radius: 50px;
-}
+
 #round{
     width: 80%;
     height: 70vh;
@@ -63,14 +51,27 @@ h3{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 20px;
->>>>>>> aa4ec56991e5be730768e4c19c2f6175d7c25a0a
 }
 
 .display-4 {
   text-align: center;
 }
 
-<<<<<<< HEAD
+#carouselExampleIndicators{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 150px;
+}
+
+.carousel-indicators{
+    
+}
+.search{
+    padding-top: 100px;
+    width: 30%;
+    margin-left: 35%;
+}
+
 .course {
   display: flex;
   justify-content: center;
@@ -80,9 +81,9 @@ h3{
 .card .card-img-top3 {
   height: 190px;
 }
-=======
+
 .card{
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: -75px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.4s, box-shadow 0.3s;
@@ -107,4 +108,3 @@ h3{
 .card .btn{
     font-size: 15px;
 }
->>>>>>> aa4ec56991e5be730768e4c19c2f6175d7c25a0a
