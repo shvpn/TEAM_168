@@ -1,5 +1,5 @@
 body{
-    background-image: url("../img/back.jpg");
+    background: linear-gradient(90deg, #e348f1, #473d3f, #2d2d8a);
     background-size: cover;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -90,7 +90,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 h3{
-    animation: typing 3s steps(30, end), blink 0.5s step-end infinite alternate;
+    animation: typing 3s steps(50, end), blink 0.5s step-end infinite alternate;
     color: white;
     font-weight: bold;
     display: inline-block;
