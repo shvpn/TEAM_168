@@ -73,12 +73,19 @@ h3 {
   padding-top: 10%;
   text-align: center;
   font-weight: bolder;
+  font-family: "Chakra Petch", sans-serif;
+  color: rgb(86, 74, 135);
+  font-family: "Jacquarda Bastarda 9", serif;
+  text-shadow: 3px 2px 2px plum;
 }
 .display-4 mark {
   border-radius: 20%;
-  background-color: rgba(255, 255, 255, 0.199);
+  background-color: rgba(74, 0, 0, 0.289);
   color: rgb(205, 198, 198);
-  box-shadow: 10px 10px 10px rgb(91, 184, 224);
+  box-shadow: 10px 10px 10px rgb(74, 30, 74);
+  font-size: smaller;
+  font-family: "Bungee Spice", sans-serif;
+  border: 1px dashed rgb(99, 78, 99);
 }
 .p-card {
   margin-top: 5%;
@@ -88,6 +95,27 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+#wholecard {
+  background: rgb(79, 122, 199);
+  background: linear-gradient(
+    90deg,
+    rgba(79, 122, 199, 1) 12%,
+    rgba(71, 14, 89, 1) 100%
+  );
+  border: 2px solid rgb(57, 55, 55);
+  box-shadow: 10px 10px 10px rgba(30, 13, 113, 0.721);
+  border-radius: 3%;
+}
 
-.card {
+.col-md-4 img {
+  height: 250px;
+  width: 350px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.199);
+}
+.card-title {
+  /* name*/
+}
+.text-body-secondary {
+  /*specialized*/
 }
