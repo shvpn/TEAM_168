@@ -61,7 +61,7 @@ h3{
 #carouselExampleIndicators{
     width: 50%;
     margin-left: 25%;
-    padding-top: 150px;
+    padding-top: 250px;
 }
 
 .search{
@@ -107,3 +107,89 @@ h3{
 .card .btn{
     font-size: 15px;
 }
+
+
+@media (max-width: 992px) {
+    #carouselExampleIndicators {
+      width: 80%;
+      margin-left: 10%;
+    }
+  
+    .search {
+      width: 50%;
+      margin-left: 25%;
+    }
+  
+    .course {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+      margin: 20px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navsh {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      margin: 10px 0;
+    }
+  
+    #navkh {
+      margin-right: 0;
+    }
+  
+    #carouselExampleIndicators {
+      width: 100%;
+      margin-left: 0;
+      padding-top: 170px;
+    }
+  
+    .search {
+      width: 80%;
+      margin-left: 10%;
+    }
+  
+    .course {
+      gap: 20px;
+    }
+  
+    .card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .nav-link {
+      font-size: 14px;
+    }
+  
+    .card h5 {
+      font-size: 18px;
+    }
+  
+    .card p {
+      font-size: 10px;
+    }
+  
+    .card .btn {
+      font-size: 12px;
+    }
+  
+    .search {
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    #carouselExampleIndicators {
+      padding-top: 170px;
+    }
+  }
+  
