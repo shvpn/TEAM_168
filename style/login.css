@@ -103,7 +103,7 @@ i{
     padding-right: 15px;
     padding-top: 15px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
 
     .navsh {
         flex-direction: column;
