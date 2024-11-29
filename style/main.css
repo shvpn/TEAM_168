@@ -108,6 +108,7 @@ h3 {
   animation: typing 3s steps(50, end), blink 0.5s step-end infinite alternate;
   color: white;
   font-weight: bold;
+  margin-top: 40px;
   display: inline-block;
 }
 .navsh {
@@ -134,7 +135,8 @@ h3 {
 
 #carouselExampleAutoplaying {
   height: 100%;
-  margin-top: 5%;
+  margin-top: 7%;
+  min-width: 500px;
   border-radius: 20px;
 }
 @keyframes typing {
