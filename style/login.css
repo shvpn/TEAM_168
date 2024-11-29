@@ -103,15 +103,17 @@ i{
     padding-right: 15px;
     padding-top: 15px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 430px) {
 
     .navsh {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
         align-items: center; 
         width: 100%; 
     }
-
+    .navsh a{
+        font-size: 10px;
+    }
    
     .logo {
         width: 50px;

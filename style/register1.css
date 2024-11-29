@@ -115,14 +115,17 @@ i{
     color: blue;
 }
 /* Media Queries for Phone Screens (below 480px) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 430px) {
 
     /* Navigation Bar - Stack items vertically */
     .navsh {
         flex-direction: column;
-        gap: 10px; /* Reduce space between items */
+        gap: 5px; /* Reduce space between items */
         align-items: center; /* Center-align items */
         width: 100%; /* Ensure nav bar spans full width */
+    }
+    .navsh a{
+        font-size: 10px;
     }
 
     /* Logo size adjustments */
