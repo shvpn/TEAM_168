@@ -172,3 +172,73 @@ i{
         color: blue;
     }
 }
+
+@media screen and (max-width: 490px) {
+
+    .navsh {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center; 
+        width: 100%; 
+    }
+    .navsh a{
+        font-size: 10px;
+    }
+   
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+ 
+    .register {
+        width: 90%;
+        margin-top: 15px; 
+        margin-top: 150px;
+    }
+
+    .register_header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .register_content {
+        padding: 15px; 
+    }
+
+    
+    .mb-3 input {
+        padding: 8px;
+        width: 100%; 
+    }
+
+    
+    button {
+        width: 120px; 
+        font-size: 14px; 
+    }
+
+    .nav-link {
+        font-size: 14px; 
+    }
+
+
+    .nav-link {
+        padding: 8px;
+    }
+
+    i {
+        font-size: 18px; 
+    }
+
+    .or_continue {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .or_continue i:hover {
+        color: blue;
+    }
+}
