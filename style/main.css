@@ -83,8 +83,13 @@ body {
   margin-top: 6.5%;
   border-radius: 50px;
 }
+
+.col {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 #round {
-  width: 80%;
   height: 70vh;
   border-radius: 20px;
 }
@@ -121,10 +126,10 @@ h3 {
   margin-bottom: 5px;
   margin-left: 20px;
 }
+
 #carouselExampleAutoplaying {
-  width: 60%;
   height: 100%;
-  margin: 10px;
+  margin-top: 5%;
   border-radius: 20px;
 }
 @keyframes typing {
