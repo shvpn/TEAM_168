@@ -103,3 +103,75 @@ i{
     padding-right: 15px;
     padding-top: 15px;
 }
+@media screen and (max-width: 480px) {
+
+    /* Navigation Bar - Stack items vertically */
+    .navsh {
+        flex-direction: column;
+        gap: 10px; /* Reduce space between items */
+        align-items: center; /* Center-align items */
+        width: 100%; /* Ensure nav bar spans full width */
+    }
+
+    /* Logo size adjustments */
+    .logo {
+        width: 50px; /* Smaller logo */
+        height: 50px;
+        margin-left: 0; /* Remove unnecessary left margin */
+        margin-top: 10px;
+    }
+
+    /* Registration Form */
+    .register {
+        width: 90%; /* Make form width take up more space */
+        margin-top: 15px; /* Reduce top margin */
+        margin-top: 150px;
+    }
+
+    .register_header {
+        padding-top: 10px; /* Adjust padding for header */
+        padding-bottom: 10px;
+    }
+
+    .register_content {
+        padding: 15px; /* Adjust padding */
+    }
+
+    /* Form Input Fields */
+    .mb-3 input {
+        padding: 8px; /* Make inputs more compact */
+        width: 100%; /* Make inputs take up full width */
+    }
+
+    /* Button Styling */
+    button {
+        width: 120px; /* Make buttons smaller */
+        font-size: 14px; /* Adjust text size */
+    }
+
+    /* Adjust Font Sizes for Mobile */
+    .nav-link {
+        font-size: 14px; /* Smaller font size for links */
+    }
+
+    /* Add margins for links */
+    .nav-link {
+        padding: 8px; /* Adjust link padding */
+    }
+
+    /* Adjust icon size */
+    i {
+        font-size: 18px; /* Slightly smaller icons */
+    }
+
+    /* 'Or continue' text styling */
+    .or_continue {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    /* Hover effects */
+    .or_continue i:hover {
+        color: blue;
+    }
+}
