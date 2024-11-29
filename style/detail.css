@@ -109,6 +109,10 @@ h3 {
   border: 2px solid rgb(57, 55, 55);
   box-shadow: 10px 10px 10px rgba(30, 13, 113, 0.721);
   border-radius: 3%;
+  transition: transform 0.4s, box-shadow 0.3s;
+}
+#wholecard:hover {
+  transform: scale(1.05);
 }
 
 .col-md-4 img {
