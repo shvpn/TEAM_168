@@ -28,7 +28,7 @@ body {
   height: 100%;
   width: 80%;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.516);
+  background-color: rgba(239, 239, 239, 0.916);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.4s, box-shadow 0.3s;
 }
@@ -63,6 +63,9 @@ body {
 }
 .nav-link {
   color: black;
+}
+.navbar{
+  margin-right: 2%;
 }
 .nav-link:hover {
   background: rgb(58, 138, 180);
