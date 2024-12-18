@@ -10,11 +10,13 @@ body {
   display: flex;
 }
 .course {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  gap: 5%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-content: center;
-  gap: 20px;
-  margin: 50px;
+  margin: 10%;
 }
 .imgcard{
   width: 100%;
@@ -24,9 +26,8 @@ body {
 }
 
 .card {
-  margin-top: 50px;
   height: 100%;
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
   background-color: rgba(239, 239, 239, 0.916);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -48,11 +49,9 @@ body {
   font-size: 15px;
 }
 .container-fluid {
-  border-radius: 10px;
   justify-content: center;
   display: flex;
   background-color: rgba(240, 255, 255, 0.181);
-  height: 100%;
 }
 #navkh {
   align-items: center;
@@ -84,23 +83,17 @@ body {
   gap: 5%;
   overflow: hidden;
   white-space: nowrap;
-  height: 80vh;
   align-items: center;
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin-top: 6.5%;
-  border-radius: 50px;
+  margin-top: 7%;
 }
 
 .col {
   align-items: center;
   justify-content: center;
   display: flex;
-}
-#round {
-  height: 70vh;
-  border-radius: 20px;
 }
 #logotxt {
   background: linear-gradient(90deg, #ff7a18, #af002d, #319197);
@@ -109,7 +102,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 h3 {
-  animation: typing 3s steps(50, end), blink 0.5s step-end infinite alternate;
   color: white;
   font-weight: bold;
   margin-top: 40px;
@@ -120,7 +112,7 @@ h3 {
   justify-content: space-between;
   display: flex;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.199);
+  background-color: rgba(255, 255, 255, 0.499);
   margin: 10px;
   position: fixed;
   z-index: 1000;
@@ -135,6 +127,10 @@ h3 {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 20px;
+}
+.logo:hover {
+  transform: scale(1.05);
+
 }
 
 #carouselExampleAutoplaying {
